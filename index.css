@@ -8,17 +8,24 @@ h1 {
 }
 
 .main-heading {
-    background-color: lightskyblue;
+    background-color: rgb(94, 78, 238);
+    color: antiquewhite;
     padding: 30px;
     margin: 15px;
     border: 1px solid black;
     border-radius: 12px;
 }
 
-.centered {
-    text-align: center;
-    background-color: brown;
+.sub-heading {
+    background-color: rgb(78, 89, 238);
+    color: antiquewhite;
+    padding: 15px;
+    margin: 15px;
+    border: 20px solid black;
+    border-radius: 12px;
+    outline: dotted  gold 10px;
+    letter-spacing: -3px;
+    text-shadow: black 2px 2px;
+}
 
 
-}  
-#subtitle{color:yellow;}
