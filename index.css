@@ -1,31 +1,36 @@
 body {
-    background-color: bisque;
-    font-family: 'Roboto', sans-serif;
+  background-image: url("https://www.w3schools.com/w3images/forestbridge.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "roboto" sans-serif;
+  opacity: 0.5;
 }
 
-h1 {
-    font-style: italic;
+img {
+  vertical-align: middle;
+  border-style: double;
+  margin: 40px;
+}
+
+h1,
+h2,
+p {
+  color: white;
+  font-style: italic;
+  text-shadow: black 1px 1px;
 }
 
 .main-heading {
-    background-color: rgb(94, 78, 238);
-    color: antiquewhite;
-    padding: 30px;
-    margin: 15px;
-    border: 1px solid black;
-    border-radius: 12px;
+  color: antiquewhite;
+  padding: 30px;
 }
 
 .sub-heading {
-    background-color: rgb(78, 89, 238);
-    color: antiquewhite;
-    padding: 15px;
-    margin: 15px;
-    border: 20px solid black;
-    border-radius: 12px;
-    outline: dotted  gold 10px;
-    letter-spacing: -3px;
-    text-shadow: black 2px 2px;
+  color: antiquewhite;
+  padding: 15px;
+  margin: 15px;
+
+  letter-spacing: -3px;
+  text-shadow: black 2px 2px;
 }
-
-
