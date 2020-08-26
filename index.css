@@ -3,7 +3,7 @@ body {
 }
 
 .forest {
-  position: relative;
+  position: absolute;
   height: 100%;
   width: 100%;
   display: flex;
@@ -20,6 +20,7 @@ img {
   vertical-align: middle;
   border-style: double;
   margin: 40px;
+  opacity: 0.5;
 }
 
 h1,
